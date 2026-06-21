@@ -1,0 +1,105 @@
+
+Logistic Regression (Binary: Survived)
+Accuracy: 0.7972027972027972
+Confusion Matrix:
+[[71 14]
+ [15 43]]
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Survived       0.83      0.84      0.83        85
+    Survived       0.75      0.74      0.75        58
+
+    accuracy                           0.80       143
+   macro avg       0.79      0.79      0.79       143
+weighted avg       0.80      0.80      0.80       143
+
+AUC: 0.8315415821501014
+
+Decision Tree (Binary: Survived)
+Accuracy: 0.7832167832167832
+Confusion Matrix:
+[[72 13]
+ [18 40]]
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Survived       0.80      0.85      0.82        85
+    Survived       0.75      0.69      0.72        58
+
+    accuracy                           0.78       143
+   macro avg       0.78      0.77      0.77       143
+weighted avg       0.78      0.78      0.78       143
+
+AUC: 0.7929006085192698
+
+SVM (Binary: Survived)
+Accuracy: 0.6783216783216783
+Confusion Matrix:
+[[72 13]
+ [33 25]]
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Survived       0.69      0.85      0.76        85
+    Survived       0.66      0.43      0.52        58
+
+    accuracy                           0.68       143
+   macro avg       0.67      0.64      0.64       143
+weighted avg       0.67      0.68      0.66       143
+
+AUC: 0.7218052738336713
+
+Logistic Regression (Multiclass: AgeGroup)
+Accuracy: 0.8041958041958042
+Confusion Matrix:
+[[115   0   0]
+ [ 23   0   0]
+ [  5   0   0]]
+Classification Report:
+              precision    recall  f1-score   support
+
+       Adult       0.80      1.00      0.89       115
+       Child       0.00      0.00      0.00        23
+     Elderly       0.00      0.00      0.00         5
+
+    accuracy                           0.80       143
+   macro avg       0.27      0.33      0.30       143
+weighted avg       0.65      0.80      0.72       143
+
+
+Decision Tree (Multiclass: AgeGroup)
+Accuracy: 0.7972027972027972
+Confusion Matrix:
+[[113   1   1]
+ [ 22   1   0]
+ [  5   0   0]]
+Classification Report:
+              precision    recall  f1-score   support
+
+       Adult       0.81      0.98      0.89       115
+       Child       0.50      0.04      0.08        23
+     Elderly       0.00      0.00      0.00         5
+
+    accuracy                           0.80       143
+   macro avg       0.44      0.34      0.32       143
+weighted avg       0.73      0.80      0.73       143
+
+
+SVM (Multiclass: AgeGroup)
+Accuracy: 0.8041958041958042
+Confusion Matrix:
+[[115   0   0]
+ [ 23   0   0]
+ [  5   0   0]]
+Classification Report:
+              precision    recall  f1-score   support
+
+       Adult       0.80      1.00      0.89       115
+       Child       0.00      0.00      0.00        23
+     Elderly       0.00      0.00      0.00         5
+
+    accuracy                           0.80       143
+   macro avg       0.27      0.33      0.30       143
+weighted avg       0.65      0.80      0.72       143
+
